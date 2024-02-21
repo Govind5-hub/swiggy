@@ -1,27 +1,17 @@
-/*
- <div id="parent">
-    <div id="child">
-        <h1></h1>
-         <h1></h1>
-    </div>
-    <div id="child2">
-          <h1></h1>
-    </div>
- </div>
- */
+ import React from "react"
+ import ReactDOM from "react-dom/client"
 
-const parent = React.createElement("div", { id: "parent" }, [
-  React.createElement("div", { id: "child" }, [
-    React.createElement("h1", {}, "hi"),
-    React.createElement("h1", {}, "there"),
-  ]),
-  React.createElement("div", { id: "child2" }, "You are the Boss"),
-]);
-const heading = React.createElement(
-  "h1",
-  { id: "heading" },
-  "Hello World Form React CDN"
-); //object
-console.log(parent);
+// React Element
+const Title = ()=> (
+<h1 id="heading" className="head">Master React</h1>
+)
+
+const HeadingComponent  = () => (
+    <div id="container">
+        {Title()}
+        {console.log("swadodmsfomffmedjwemfifm")}
+     <h1>Master FrontEnd</h1>
+    </div>
+)
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+root.render(<HeadingComponent/>);
