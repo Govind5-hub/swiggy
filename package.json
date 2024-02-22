@@ -1,0 +1,43 @@
+{
+  "name": "swiggy",
+  "version": "1.0.0",
+  "description": "swiggy clone",
+  "scripts": {
+    "test": "jest",
+    "start": "rm -rf .parcel-cache && parcel index.html",
+    "build": "rm -rf .parcel-cache && parcel build index.html"
+    
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Govind5-hub/swiggy.git"
+  },
+  "keywords": [
+    "react",
+    "react-router",
+    "bable",
+    "parcel",
+    "jest",
+    "react-testing-libaray"
+  ],
+  "author": "Govind Soni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Govind5-hub/swiggy/issues"
+  },
+  "homepage": "https://github.com/Govind5-hub/swiggy#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "browserslist": "^4.23.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 Chrome version",
+    "last 2 Firefox version"
+  ]
+}
