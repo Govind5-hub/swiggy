@@ -1,4 +1,49 @@
-/* Globle css */
-#heading{
-    background: red;
+.body-container {
+  margin: 0px !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid black;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+     */
+}
+.logo {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+.nav-item ul {
+  display: flex;
+  list-style: none;
+}
+.nav-item ul li {
+  padding: 10px;
+  margin: 10px;
+  font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
+  color: #282c3f;
+  font-weight: 600;
+}
+.res-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.res-card{
+  margin: 20px;
+  width: 200px;
+  padding: 10px;
+  background-color:cornsilk;
+}
+.res-card:hover{
+  border: 1px solid black;
+  cursor: pointer;
+}
+.res-logo{
+  width: 200px;
+  height: 200px;
 }

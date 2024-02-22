@@ -3,20 +3,21 @@
 # npm npm is every thing but not node package manger
 
 # bundler : webpack, parcel,trabo,vite help you bundle , mainfite, compress, our code and send
+
 # prodction
 # cra use webpack
 
 # Dependency
 # dependency vs devDependency
 # devDependeny need in development fash
-# transitive dependency  dependency depend on other dependency
+# transitive dependency dependency depend on other dependency
 
 # tilde ~ and caret ^
-# tilde change miner version like 2.8.3 to 2.8.4
+# tilde change miner version like 2.8.3 to 2.8.
 # caret change major version like 2.8.3 to 2.9.0
 
 # packeage-lock-json
-# track version which install exact in system 
+# track version which install exact in system
 
 # in this project we use parcel
 # easy to configer
@@ -35,18 +36,37 @@
 # Error Handling
 # HTTPS
 # Tree Shaking remove unless code
-
 # BrowserList
 # "start": "rm -rf .parcel-cache && parcel",
 # "build": "rm -rf .parcel-cache && parcel build"
-
-# JSX  Html like XML like syntax
+# JSX Html like XML like syntax
 
 # Component
 # Class Based Component
-# Functional  Componnet
+# Functional Componnet
 # Component Composition
 # {write any javascript exprestion like variable,Map,Filter,Condition Render}
-# <Title/>, <Title><Title/>,  Title()
+# <Title/>, <Title><Title/>, Title()
 
+# Low Level Softwere Development Planing
+# Look like , Tech Stack , Database , Deplyment server , optimztion , Best Practis
+# Our App Header - Home, Cart, About
+# Body - Search , Search Button, Card Container , Restaurant Card , Image , Rating , Restaurant Name ,
+# Footer - Copy Rigth , Link , Address, Contact # Daymic Title
+
+# Config Drivin UI
+# show data in diffrent according to place
+
+# props is nothing just an argument like function argument props just a object  <res rating="34.5" >  just a pass object 
+
+# Object Destructure
+#  like props { "resname": "Rominus pizza","rating": "4.5" } Destructure {resname,rating}
+
+
+# id is must in React 
+# use unique key
+# Reason for optimaztion render only specfic id element
+# react itslef say don"t use index for key is an anti-pattern
+    
+   
 
